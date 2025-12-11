@@ -20,7 +20,7 @@ Before starting, ensure you have the following:
 Follow the steps below to set up your workshop environment:
 
 
-## Clone/ Download this repository
-git clone [https://github.com/<your-repo>/CSPGWorkshop2025.git](https://github.com/ksshivran/CSPGWorkshop.git)
+- Clone/ Download this repository
+  git clone [https://github.com/<your-repo>/CSPGWorkshop2025.git](https://github.com/ksshivran/CSPGWorkshop.git)
 
 
