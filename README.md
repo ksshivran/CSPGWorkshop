@@ -19,14 +19,8 @@ Before starting, ensure you have the following:
 
 Follow the steps below to set up your workshop environment:
 
-```bash
-# Clone the repository
-git clone https://github.com/<your-repo>/CSPGWorkshop2025.git
-cd CSPGWorkshop2025
 
-# Create a virtual environment
-python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+## Clone/ Download this repository
+git clone [https://github.com/<your-repo>/CSPGWorkshop2025.git](https://github.com/ksshivran/CSPGWorkshop.git)
 
-# Install dependencies
-pip install -r requirements.txt
+
