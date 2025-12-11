@@ -21,7 +21,7 @@ Follow the steps below to set up your workshop environment:
 
 
 - Clone/ Download this repository
-'''bash
+```bash
 git clone [https://github.com/<your-repo>/CSPGWorkshop2025.git](https://github.com/ksshivran/CSPGWorkshop.git)
 
 
