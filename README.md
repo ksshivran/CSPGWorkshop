@@ -18,10 +18,18 @@ Before starting, ensure you have the following:
 ## 2. Installation
 
 Follow the steps below to set up your workshop environment:
+- System Requirements
+  - Minimum Requirements
+    - **CPU Cores:** 4 cores  
+    - **CPU Frequency:** ≥ 1.5 GHz  
+    - **RAM:** 8 GB total  
+    - **Storage (Disk):** 256 GB  
+    
+  - Recommended Requirements
+    - **CPU Cores:** 8 cores  
+    - **CPU Frequency:** ≥ 2.0–2.5 GHz  
+    - **RAM:** 16 GB total  
+    - **Storage (Disk):** 500 GB  
 
-
-- Clone/ Download this repository
-```bash
-git clone [https://github.com/<your-repo>/CSPGWorkshop2025.git](https://github.com/ksshivran/CSPGWorkshop.git)
 
 
