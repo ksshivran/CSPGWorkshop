@@ -38,7 +38,6 @@ Follow the steps below to set up your workshop environment:
 ### 2.2 Installation
 
 #### 2.2.1 Demos
-
     This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
 
     1. **Wireshark**  
