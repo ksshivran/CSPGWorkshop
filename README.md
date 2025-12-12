@@ -11,7 +11,7 @@ Before starting, ensure you have the following:
   - Networking Basics   
   - **C, C++** and **Python** Programming
 
-Follow the steps below to set up your workshop environment:
+**Follow the steps below to set up your workshop environment:**
 ### 2 System Requirements
   - Minimum
     - **CPU Cores:** 4 cores  
