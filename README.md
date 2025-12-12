@@ -15,7 +15,7 @@ Before starting, ensure you have the following:
 
 ---
 
-## 2. Installation
+## 2. Hands-on session primer
 
 Follow the steps below to set up your workshop environment:
 ### 2.1 System Requirements
@@ -35,9 +35,35 @@ Follow the steps below to set up your workshop environment:
   -  xubuntu minimal ISO ()
 
 
-### 2.2 Hands-on session primer
+### 2.2 Installation
 
+#### 2.2.1 Demos
 
+    This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
+
+    1. **Wireshark**  
+      A tool for network traffic sniffing, packet visualisation, and analysis.  
+      Download: https://www.wireshark.org/download.html
+
+    2. **ColaSoft PacketBuilder**  
+      A GUI-based tool for editing and replaying network packets, allowing modification of raw packet header fields and payload.  
+      This tool requires **Npcap** (https://npcap.com/#download) to be installed first.  
+      Download: https://www.colasoft.com/packet_builder/
+
+    3. **Bit-Twist**  
+      A simple but powerful command-line tool based on libpcap for packet editing and replay.  
+      It does not require installation and can be run directly through the command window.  
+      Download: https://bittwist.sourceforge.io/
+
+    4. **IED Scout (Omicron)**  
+      A GUI-based tool functioning as an IED simulator. A 30-day trial version is available for download:  
+      https://www.omicronenergy.com/en/products/iedscout/  
+
+      It acts as an IED simulator and includes:
+      - **Simulator Tab** – used to simulate the MMS server and the GOOSE publisher.  
+      - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
+
+#### 2.2.2 Labs
   1. Introduction to Linux Operating System, VM in Linux, and Installation
   - Learn how to set up and use Linux on a virtual machine. 
   - The guide below provides a step-by-step walkthrough for running xubuntu Desktop using VirtualBox:  
@@ -73,34 +99,10 @@ Familiarize yourself with essential network monitoring tools used to analyze and
 
 6. Introduction to Wireshark and Packet Modification 
 Gain practical knowledge of Wireshark for capturing and analyzing network packets.  
-  - 🎥 [Wireshark Tutorial](https://youtu.be/lb1Dw0elw0Q?si=s7iODDZAeG3jWpT0)
-  - 🎥 [Scapy Tutorial](https://www.youtube.com/watch?v=yD8qrP8sCDs)
+  - 🎥 Wireshark Tutorial [1](https://youtu.be/lb1Dw0elw0Q?si=s7iODDZAeG3jWpT0).
+  - 🎥 Scapy Tutorial [1](https://www.youtube.com/watch?v=yD8qrP8sCDs).
 
-### 4. Tutorials by Dr. Mital
 
-This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
-
-1. **Wireshark**  
-   A tool for network traffic sniffing, packet visualisation, and analysis.  
-   Download: https://www.wireshark.org/download.html
-
-2. **ColaSoft PacketBuilder**  
-   A GUI-based tool for editing and replaying network packets, allowing modification of raw packet header fields and payload.  
-   This tool requires **Npcap** (https://npcap.com/#download) to be installed first.  
-   Download: https://www.colasoft.com/packet_builder/
-
-3. **Bit-Twist**  
-   A simple but powerful command-line tool based on libpcap for packet editing and replay.  
-   It does not require installation and can be run directly through the command window.  
-   Download: https://bittwist.sourceforge.io/
-
-4. **IED Scout (Omicron)**  
-   A GUI-based tool functioning as an IED simulator. A 30-day trial version is available for download:  
-   https://www.omicronenergy.com/en/products/iedscout/  
-
-   It acts as an IED simulator and includes:
-   - **Simulator Tab** – used to simulate the MMS server and the GOOSE publisher.  
-   - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
 
 
 
