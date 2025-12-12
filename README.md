@@ -1,24 +1,17 @@
 # CSPG Workshop 2025 – Indian Institute of Science  
 This repository hosts the materials and resources for the **CSPG Workshop 2025** conducted at the **Indian Institute of Science (IISc)**.
 
----
-
-## 1. Prerequisites for Lab Exercies
+## 1. Hands-on session primer
 
 Before starting, ensure you have the following:
-
 - **Basic Understanding** of
   - Linux Systems i.e. terminal commands
   - Virtual Machines in Host Systems
   - Networking Basics   
   - **C, C++** and **Python** Programming
 
----
-
-## 2. Hands-on session primer
-
 Follow the steps below to set up your workshop environment:
-### 2.1 System Requirements
+### 2 System Requirements
   - Minimum
     - **CPU Cores:** 4 cores  
     - **CPU Frequency:** ≥ 1.5 GHz  
@@ -35,9 +28,9 @@ Follow the steps below to set up your workshop environment:
   -  xubuntu minimal ISO ()
 
 
-### 2.2 Installation
+### 3 Installation
 
-#### 2.2.1 Demos
+#### 3.1 Demos
 This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
 - **Wireshark**  
   A tool for network traffic sniffing, packet visualisation, and analysis.  
@@ -60,19 +53,15 @@ This tutorial/laboratory practice is designed for individual completion on one's
       - **Simulator Tab** – used to simulate the MMS server and the GOOSE publisher.  
       - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
 
-#### 2.2.2 Labs
+#### 3.2 Labs
   1. Introduction to Linux Operating System, VM in Linux, and Installation
   - Learn how to set up and use Linux on a virtual machine. 
   - The guide below provides a step-by-step walkthrough for running xubuntu Desktop using VirtualBox:  
   🔗 xubuntu VM Installation Tutorial [1](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview).
 
----
-
   2. Introduction to General Linux Commands  
   Explore essential Linux commands to manage files, processes, and the system efficiently.  
   🎥 Watch the Linux Commands Tutorial [1](https://youtu.be/ROjZy1WbCIA?si=AhFtQRlwXKsyb7wO).
-
----
 
   3. Introduction to Networking (OSI Layer) and General Networking Commands in Linux  
   Understand the fundamentals of networking and how the OSI model works. The following videos explain key networking concepts and practical command-line usage in Linux:
@@ -80,19 +69,13 @@ This tutorial/laboratory practice is designed for individual completion on one's
   - 🎥 Introduction to Networking and OSI [1](https://www.youtube.com/watch?v=owDh6FNJUog).
   - 🎥 Understanding VLAN [1](https://www.youtube.com/watch?v=mYR3urEWL2k), [2](https://www.youtube.com/watch?v=SKByC27gFi8).
 
----
-
 4. Introduction to File Creation and Modification using Vim/Nano  
 Learn how to create, edit, and manage files using command-line text editors in Linux.  
   - 🎥 Nano Basics Tutorial [1](https://youtu.be/DLeATFgGM-A).  
   - 🎥 Vim Editor Tutorial [1](https://youtu.be/jXud3JybsG4).
 
----
-
 5. General Tools for Network Sniffing and Packet Modification 
 Familiarize yourself with essential network monitoring tools used to analyze and modify packet data. Tools include `tcpdump`, `Wireshark`, and similar utilities.
-
----
 
 6. Introduction to Wireshark and Packet Modification 
 Gain practical knowledge of Wireshark for capturing and analyzing network packets.  
