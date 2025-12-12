@@ -68,7 +68,7 @@ This tutorial/laboratory practice is designed for individual completion on one's
   Understand the fundamentals of networking and how the OSI model works. The following videos explain key networking concepts and practical command-line usage in Linux:
 
   - 🎥 Introduction to Networking and OSI [[1](https://www.youtube.com/watch?v=owDh6FNJUog)].
-  - 🎥 Understanding VLAN [[1](https://www.youtube.com/watch?v=mYR3urEWL2k)], [[2](https://www.youtube.com/watch?v=SKByC27gFi8)].
+  - 🎥 Understanding VLAN [[1](https://www.youtube.com/watch?v=mYR3urEWL2k), [2](https://www.youtube.com/watch?v=SKByC27gFi8)].
 
 4. Introduction to File Creation and Modification using Vim/Nano  
 Learn how to create, edit, and manage files using command-line text editors in Linux.  
