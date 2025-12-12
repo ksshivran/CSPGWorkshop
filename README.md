@@ -18,7 +18,7 @@ Before starting, ensure you have the following:
 ## 2. Installation
 
 Follow the steps below to set up your workshop environment:
-### System Requirements
+### 2.1 System Requirements
   - Minimum
     - **CPU Cores:** 4 cores  
     - **CPU Frequency:** ≥ 1.5 GHz  
@@ -35,8 +35,7 @@ Follow the steps below to set up your workshop environment:
   -  xubuntu minimal ISO ()
 
 
-
-### Hands-on session primer
+### 2.2 Hands-on session primer
 
 
   1. Introduction to Linux Operating System, VM in Linux, and Installation
@@ -55,9 +54,8 @@ Follow the steps below to set up your workshop environment:
   3. Introduction to Networking (OSI Layer) and General Networking Commands in Linux  
   Understand the fundamentals of networking and how the OSI model works. The following videos explain key networking concepts and practical command-line usage in Linux:
 
-  - 🎥 [Introduction to Networking](https://www.youtube.com/watch?v=owDh6FNJUog)
-  - 🎥 [Understanding OSI Model](https://www.youtube.com/watch?v=SKByC27gFi8)
-  - 🎥 [Understanding VLAN](https://www.youtube.com/watch?v=mYR3urEWL2k)
+  - 🎥 Introduction to Networking and OSI [1](https://www.youtube.com/watch?v=owDh6FNJUog).
+  - 🎥 Understanding VLAN[1](https://www.youtube.com/watch?v=mYR3urEWL2k), [2](https://www.youtube.com/watch?v=SKByC27gFi8)
 
 ---
 
