@@ -43,21 +43,20 @@ This tutorial/laboratory practice is designed for individual completion on one's
   A tool for network traffic sniffing, packet visualisation, and analysis.  
   Download: https://www.wireshark.org/download.html
 
-    2. **ColaSoft PacketBuilder**  
-      A GUI-based tool for editing and replaying network packets, allowing modification of raw packet header fields and payload.  
-      This tool requires **Npcap** (https://npcap.com/#download) to be installed first.  
-      Download: https://www.colasoft.com/packet_builder/
+- **ColaSoft PacketBuilder**  
+  A GUI-based tool for editing and replaying network packets, allowing modification of raw packet header fields and payload.  
+  This tool requires **Npcap** (https://npcap.com/#download) to be installed first.  
+  Download: https://www.colasoft.com/packet_builder/
 
-    3. **Bit-Twist**  
-      A simple but powerful command-line tool based on libpcap for packet editing and replay.  
-      It does not require installation and can be run directly through the command window.  
-      Download: https://bittwist.sourceforge.io/
+- **Bit-Twist**  
+  A simple but powerful command-line tool based on libpcap for packet editing and replay.  
+  It does not require installation and can be run directly through the command window.  
+  Download: https://bittwist.sourceforge.io/
 
-    4. **IED Scout (Omicron)**  
-      A GUI-based tool functioning as an IED simulator. A 30-day trial version is available for download:  
-      https://www.omicronenergy.com/en/products/iedscout/  
-
-      It acts as an IED simulator and includes:
+- **IED Scout (Omicron)**  
+  A GUI-based tool functioning as an IED simulator. A 30-day trial version is available for download:  
+  https://www.omicronenergy.com/en/products/iedscout/  
+  It acts as an IED simulator and includes:
       - **Simulator Tab** – used to simulate the MMS server and the GOOSE publisher.  
       - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
 
