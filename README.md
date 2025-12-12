@@ -30,9 +30,10 @@ Before starting, ensure you have the following:
 
 
 ### 3 Installation
+The attendees of the workshop are expected to complete the below prerequisits for the workshop demo and lab sessions.
 
 #### 3.1 Demos
-This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
+This section discusses about prerequisits for the demos on cyber security for IEC61850 based substation which was validated on a windows operating system. For this purpose, the following tools must be installed on the user's device:
 - **Wireshark**  
   A tool for network traffic sniffing, packet visualisation, and analysis.  
   Download: https://www.wireshark.org/download.html
@@ -55,6 +56,7 @@ This tutorial/laboratory practice is designed for individual completion on one's
       - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
 
 #### 3.2 Labs
+In this section basic prerequisites are provided for the the workshop. 
   1. Introduction to Linux Operating System, VM in Linux, and Installation
   - Learn how to set up and use Linux on a virtual machine. 
   - The guide below provides a step-by-step walkthrough for running xubuntu Desktop using VirtualBox:  
