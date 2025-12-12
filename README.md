@@ -56,30 +56,30 @@ In this section basic prerequisites are provided for the the workshop.
   1. Introduction to Linux Operating System, VM in Linux, and Installation
   - Learn how to set up and use Linux on a virtual machine. 
   - The guide below provides a step-by-step walkthrough for running xubuntu Desktop using VirtualBox:  
-  🔗 [xubuntu VM Installation Tutorial](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview).
+  🔗 [xubuntu VM Installation Tutorial](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview)
 
   2. Introduction to General Linux Commands  
   Explore essential Linux commands to manage files, processes, and the system efficiently.  
-  🎥 [Watch the Linux Commands Tutorial](https://youtu.be/ROjZy1WbCIA?si=AhFtQRlwXKsyb7wO).
+  🎥 [Watch the Linux Commands Tutorial](https://youtu.be/ROjZy1WbCIA?si=AhFtQRlwXKsyb7wO)
 
   3. Introduction to Networking (OSI Layer) and General Networking Commands in Linux  
   Understand the fundamentals of networking and how the OSI model works. The following videos explain key networking concepts and practical command-line usage in Linux:
 
-  - 🎥 [Introduction to Networking and OSI](https://www.youtube.com/watch?v=owDh6FNJUog).
-  - 🎥 Understanding VLAN [[1](https://www.youtube.com/watch?v=mYR3urEWL2k), [2](https://www.youtube.com/watch?v=SKByC27gFi8)].
+  - 🎥 [Introduction to Networking and OSI](https://www.youtube.com/watch?v=owDh6FNJUog)
+  - 🎥 Understanding VLAN [[1](https://www.youtube.com/watch?v=mYR3urEWL2k), [2](https://www.youtube.com/watch?v=SKByC27gFi8)]
 
 4. Introduction to File Creation and Modification using Vim/Nano  
 Learn how to create, edit, and manage files using command-line text editors in Linux.  
-  - 🎥 [Nano Basics Tutorial](https://youtu.be/DLeATFgGM-A).  
-  - 🎥 [Vim Editor Tutorial](https://youtu.be/jXud3JybsG4).
+  - 🎥 [Nano Basics Tutorial](https://youtu.be/DLeATFgGM-A)
+  - 🎥 [Vim Editor Tutorial](https://youtu.be/jXud3JybsG4)
 
 5. General Tools for Network Sniffing and Packet Modification 
 Familiarize yourself with essential network monitoring tools used to analyze and modify packet data. Tools include `tcpdump`, `Wireshark`, and similar utilities.
 
 6. Introduction to Wireshark and Packet Modification 
 Gain practical knowledge of Wireshark for capturing and analyzing network packets.  
-  - 🎥 [Wireshark Tutorial](https://youtu.be/lb1Dw0elw0Q?si=s7iODDZAeG3jWpT0).
-  - 🎥 [Scapy Tutorial](https://www.youtube.com/watch?v=yD8qrP8sCDs).
+  - 🎥 [Wireshark Tutorial](https://youtu.be/lb1Dw0elw0Q?si=s7iODDZAeG3jWpT0)
+  - 🎥 [Scapy Tutorial](https://www.youtube.com/watch?v=yD8qrP8sCDs)
 
 
 
