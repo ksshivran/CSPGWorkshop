@@ -18,7 +18,7 @@ Before starting, ensure you have the following:
 ## 2. Installation
 
 Follow the steps below to set up your workshop environment:
-- System Requirements
+### System Requirements
   - Minimum
     - **CPU Cores:** 4 cores  
     - **CPU Frequency:** ≥ 1.5 GHz  
@@ -36,7 +36,7 @@ Follow the steps below to set up your workshop environment:
 
 
 
-## 3. Hands-on session primer
+### Hands-on session primer
 
 
   1. Introduction to Linux Operating System, VM in Linux, and Installation
