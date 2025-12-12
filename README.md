@@ -38,11 +38,10 @@ Follow the steps below to set up your workshop environment:
 ### 2.2 Installation
 
 #### 2.2.1 Demos
-    This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
-
-    1. **Wireshark**  
-      A tool for network traffic sniffing, packet visualisation, and analysis.  
-      Download: https://www.wireshark.org/download.html
+This tutorial/laboratory practice is designed for individual completion on one's own device during the designated lab session. This setup has been validated for use on the Windows operating system. For this purpose, the following tools must be installed on the user's device:
+- **Wireshark**  
+  A tool for network traffic sniffing, packet visualisation, and analysis.  
+  Download: https://www.wireshark.org/download.html
 
     2. **ColaSoft PacketBuilder**  
       A GUI-based tool for editing and replaying network packets, allowing modification of raw packet header fields and payload.  
