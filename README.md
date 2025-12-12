@@ -24,10 +24,6 @@ Before starting, ensure you have the following:
     - **CPU Frequency:** ≥ 2.0–2.5 GHz  
     - **RAM:** 16 GB total  
     - **Storage (Disk):** 500 GB
-- Downloads
-  -  Virtual Box ()
-  -  xubuntu minimal ISO ()
-
 
 ### 3 Installation
 The attendees of the workshop are expected to complete the below prerequisits for the workshop demo and lab sessions.
@@ -54,7 +50,7 @@ This section discusses about prerequisits for the demos on cyber security for IE
   It acts as an IED simulator and includes:
       - **Simulator Tab** – used to simulate the MMS server and the GOOSE publisher.  
       - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
-
+- **Note**: You can also find the above applications to download at this [drive link]().
 #### 3.2 Labs
 In this section basic prerequisites are provided for the the workshop. 
   1. Introduction to Linux Operating System, VM in Linux, and Installation
