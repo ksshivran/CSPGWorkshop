@@ -68,10 +68,9 @@ In this section basic prerequisites are provided for the the workshop.
   - 🎥 [Introduction to Networking and OSI](https://www.youtube.com/watch?v=owDh6FNJUog)
   - 🎥 Understanding VLAN [[1](https://www.youtube.com/watch?v=mYR3urEWL2k), [2](https://www.youtube.com/watch?v=SKByC27gFi8)]
 
-4. Introduction to File Creation and Modification using Vim/Nano  
+4. Introduction to File Creation and Modification using Nano  
 Learn how to create, edit, and manage files using command-line text editors in Linux.  
   - 🎥 [Nano Basics Tutorial](https://youtu.be/DLeATFgGM-A)
-  - 🎥 [Vim Editor Tutorial](https://youtu.be/jXud3JybsG4)
 
 5. General Tools for Network Sniffing and Packet Modification 
 Familiarize yourself with essential network monitoring tools used to analyze and modify packet data. Tools include `tcpdump`, `Wireshark`, and similar utilities.
