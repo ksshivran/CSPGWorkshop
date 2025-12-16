@@ -50,7 +50,7 @@ This section discusses about prerequisits for the demos on cyber security for IE
   It acts as an IED simulator and includes:
       - **Simulator Tab** – used to simulate the MMS server and the GOOSE publisher.  
       - **Browser Tab** – used to simulate the MMS client and the GOOSE subscriber.
-- **Note**: You can also find the above applications to download at this [drive link]().
+- In addition, download all the files in the demos folder.
 #### 3.2 Labs
 In this section basic prerequisites are provided for the the workshop. 
   1. Introduction to Linux Operating System, VM in Linux, and Installation
