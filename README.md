@@ -56,7 +56,7 @@ In this section basic prerequisites are provided for the the workshop.
   1. Introduction to Linux Operating System, VM in Linux, and Installation
   - Learn how to set up and use Linux on a virtual machine. 
   - The guide below provides a step-by-step walkthrough for running xubuntu Desktop using VirtualBox:  
-  🔗 [Virtual Box and xubuntu installation guide](installation/CSPG_2025_Workshop.pdf)
+  🔗 [Virtual Box and xubuntu installation guide](installation/VM Installation Guide.pdf)
 
   2. Introduction to General Linux Commands  
   Explore essential Linux commands to manage files, processes, and the system efficiently.  
