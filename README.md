@@ -1,3 +1,6 @@
+<span style="color:red"><b>NEW:</b> Added <a href="Demos/Hands-on session_MITM_MK_v1.0.pdf"> IED Scout Demo PDF File</a></span>
+
+
 # CSPG Workshop 2025 – Indian Institute of Science  
 This repository hosts the materials and resources for the **CSPG Workshop 2025** conducted at the **Indian Institute of Science (IISc)**.
 
