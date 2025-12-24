@@ -1,7 +1,7 @@
 # 🚨 NEW: Today’s Hands-on
 ## [OPEN HERE- Lab01](./Lab01/)
-## [OPEN HERE- Lab01](./Lab02/)
-## [OPEN HERE- Lab01](./Lab03/)
+## [OPEN HERE- Lab02](./Lab02/)
+## [OPEN HERE- Lab03](./Lab03/)
 
 # CSPG Workshop 2025 – Indian Institute of Science  
 This repository hosts the materials and resources for the **CSPG Workshop 2025** conducted at the **Indian Institute of Science (IISc)**.
