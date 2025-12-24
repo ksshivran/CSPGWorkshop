@@ -1,5 +1,5 @@
 # 🚨 NEW: Today’s Demo PDF
-## 👉 [OPEN HERE](./Demos/Hands-on%20session_MITM_MK_v1.0.pdf)
+## [OPEN HERE](./Demos/Hands-on%20session_MITM_MK_v1.0.pdf)
 
 # CSPG Workshop 2025 – Indian Institute of Science  
 This repository hosts the materials and resources for the **CSPG Workshop 2025** conducted at the **Indian Institute of Science (IISc)**.
