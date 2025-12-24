@@ -1,4 +1,4 @@
-<p style="color:red; font-size:22px; font-weight:700;">
+<p style="color:red; font-size:32px; font-weight:700;">
   🚨 NEW: Check Today's Demo PDF File→
   <a href="Demos/Hands-on session_MITM_MK_v1.0.pdf">HERE</a>
 </p>
