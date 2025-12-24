@@ -1,7 +1,7 @@
 /*
- * lab01_goose_subscriber.c
+ * lab01_optional_goose_subscriber.c
  *
- *  This is modified standalone GOOSE subscriber
+ * This is an example for a standalone GOOSE subscriber
  *
  * Has to be started as root in Linux.
  */
@@ -18,6 +18,7 @@
 
 static int running = 1;
 
+
 static void
 sigint_handler(int signalId)
 {
@@ -26,18 +27,27 @@ sigint_handler(int signalId)
 
 static void
 gooseListener(GooseSubscriber subscriber, void* parameter)
-{
+{	
+
+    int stNum, sqNum;	
+
+    stNum = GooseSubscriber_getStNum(subscriber);
+    sqNum = GooseSubscriber_getSqNum(subscriber);
+
+ 
     printf("GOOSE event:\n");
-    printf("  stNum: %u sqNum: %u\n", GooseSubscriber_getStNum(subscriber),
-            GooseSubscriber_getSqNum(subscriber));
+    printf("  stNum: %u sqNum: %u\n", stNum,sqNum);
+
     printf("  timeToLive: %u\n", GooseSubscriber_getTimeAllowedToLive(subscriber));
 
     uint64_t timestamp = GooseSubscriber_getTimestamp(subscriber);
 
     printf("  timestamp: %u.%u\n", (uint32_t) (timestamp / 1000), (uint32_t) (timestamp % 1000));
+    printf("  message is %s\n", GooseSubscriber_isValid(subscriber) ? "valid" : "INVALID");
+
     MmsValue* values = GooseSubscriber_getDataSetValues(subscriber);
 
-       /* [0] XCBR.Pos.stVal */
+    /* [0] XCBR.Pos.stVal */
     MmsValue* stVal = MmsValue_getElement(values, 0);
 
     /* Decode 2-bit BIT STRING */
@@ -51,13 +61,13 @@ gooseListener(GooseSubscriber subscriber, void* parameter)
     else pos = 3;                       // BAD
 
     printf("  XCBR.Pos.stVal = 0x%02X (",
-        (bit0 ? 0x80 : 0x00) | (bit1 ? 0x40 : 0x00));
+       	(bit0 ? 0x80 : 0x00) | (bit1 ? 0x40 : 0x00));
 
     switch (pos) {
-    case 0: printf("INTERMEDIATE"); break;
-    case 1: printf("OFF"); break;
-    case 2: printf("ON"); break;
-    case 3: printf("BAD"); break;
+    	case 0: printf("INTERMEDIATE"); break;
+    	case 1: printf("OFF"); break;
+    	case 2: printf("ON"); break;
+    	case 3: printf("BAD"); break;
     }
     printf(")\n");
 
@@ -66,15 +76,15 @@ gooseListener(GooseSubscriber subscriber, void* parameter)
     bool invalid = MmsValue_getBitStringBit(q, 0);
 
     printf("  XCBR.Pos.q = %s\n",
-        invalid ? "INVALID" : "GOOD");
+       	invalid ? "INVALID" : "GOOD");
 
     /* [2] XCBR.Pos.t */
     MmsValue* t = MmsValue_getElement(values, 2);
     uint64_t t_ms = MmsValue_getUtcTimeInMs(t);
 
     printf("  XCBR.Pos.t = %u.%03u\n",
-        (uint32_t)(t_ms / 1000),
-        (uint32_t)(t_ms % 1000));
+      	(uint32_t)(t_ms / 1000),
+       	(uint32_t)(t_ms % 1000));
 }
 
 int
@@ -87,8 +97,8 @@ main(int argc, char** argv)
         GooseReceiver_setInterfaceId(receiver, argv[1]);
     }
     else {
-        printf("Using interface eth0\n");
-        GooseReceiver_setInterfaceId(receiver, "eth0");
+        printf("Using interface enp0s3\n");
+        GooseReceiver_setInterfaceId(receiver, "enp0s3");
     }
 
     GooseSubscriber subscriber = GooseSubscriber_create("simpleIOGenericIO/XCBR1$GO$gcbPos", NULL);

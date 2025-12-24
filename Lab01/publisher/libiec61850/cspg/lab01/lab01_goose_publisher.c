@@ -24,7 +24,7 @@ main(int argc, char **argv)
     }
     else
     {
-        interface = "enp0s3";
+        interface = "eth0";
     }
     printf("Using interface %s\n", interface);
 
