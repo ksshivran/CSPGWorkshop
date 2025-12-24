@@ -1,7 +1,12 @@
-<p style="color:red; font-size:32px; font-weight:700;">
-  🚨 NEW: Check Today's Demo PDF File→
-  <a href="Demos/Hands-on session_MITM_MK_v1.0.pdf">HERE</a>
+<p>
+  <font color="red">
+    <span style="font-size:32px; font-weight:700;">
+      🚨 NEW: Check Today's Demo PDF File →
+      <a href="./Demos/Hands-on%20session_MITM_MK_v1.0.pdf">HERE</a>
+    </span>
+  </font>
 </p>
+
 
 # CSPG Workshop 2025 – Indian Institute of Science  
 This repository hosts the materials and resources for the **CSPG Workshop 2025** conducted at the **Indian Institute of Science (IISc)**.
