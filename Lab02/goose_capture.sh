@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-IFACE="eth1"
+IFACE="enp0s3"
 OUT_PCAP="goose_capture.pcap"
 
 echo "[*] Capturing GOOSE traffic on $IFACE"
