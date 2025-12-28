@@ -7,6 +7,8 @@ This repository hosts the materials and resources for the **CSPG Workshop 2025**
 ### [OPEN HERE- Lab02](./Labs/Lab02/)
 ### [OPEN HERE- Lab03](./Labs/Lab03/)
 
+## To perform Demo :
+### [OPEN HERE- Demo PDF](./Demos/Hands-on session_MITM_MK_v1.0.pdf)
 ## Hands-on session primer
 
 ### 1 Basic Understanding
